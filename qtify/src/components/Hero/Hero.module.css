@@ -1,0 +1,14 @@
+:root {
+  --color-black: #121212
+}
+
+.hero {
+  background-color: var(--color-black);
+  color: #ffffff;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
