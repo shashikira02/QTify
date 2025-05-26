@@ -1,35 +1,13 @@
-:root {
-  --button-bg-color: #121212;
-  --button-text-color: #34c94b;
-}
-
 .button {
-  font-family: "Poppins", sans-serif;
-  background-color: var(--button-bg-color);
-  color: var(--button-text-color);
-  border: 1px solid var(--button-bg-color);
-  border-radius: 12px;
-  width: auto; /* Adjust width to fit content */
-  min-width: 170px; /* Minimum width to ensure button doesn't get too small */
-  height: 47px;
-  padding: 10px 16px;
-  gap: 10px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px; 
-  letter-spacing: 0.25px; 
-  text-align: center;
-  vertical-align: middle;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; 
-}
+    background-color: var(--color-black);
+    color: var(--color-primary);
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 16px;
+    margin: 14px;
+    Width: 170px;
+    Height: 47px;
+    font-size:medium;
 
-.button:hover {
-  background-color: #333;
 }

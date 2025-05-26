@@ -1,14 +1,23 @@
-:root {
-  --color-black: #121212
-}
-
-.hero {
-  background-color: var(--color-black);
-  color: #ffffff;
+.Hero {
   height: 270px;
   display: flex;
   justify-content: center;
+  align-items: center;  
+}
+.HeroTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  gap: 30px;
+  line-height: 48px;
+  font-weight: 600;
+  margin: 20px;
+}
+.HeroTitle > h1{
+    height: 48px;
+    font-size: 32px;
+}
+.HeroImage {
+  height: 212px;
+  width: 212px;
 }
